@@ -1,5 +1,21 @@
 [project]
-name = "vae"
+name = "camus-autoencoder"
 version = "0.1.0"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.8",
+    "nibabel>=5.2",
+    "numpy>=1.26",
+    "torch>=2.2",
+    "jupyter>=1.0",
+]
+
+[project.scripts]
+camus-train = "camus_ae.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

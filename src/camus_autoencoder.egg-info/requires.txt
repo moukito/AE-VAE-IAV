@@ -1,0 +1,5 @@
+matplotlib>=3.8
+nibabel>=5.2
+numpy>=1.26
+torch>=2.2
+jupyter>=1.0

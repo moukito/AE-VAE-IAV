@@ -1,0 +1,12 @@
+pyproject.toml
+src/camus_ae/__init__.py
+src/camus_ae/cli.py
+src/camus_ae/data.py
+src/camus_ae/models.py
+src/camus_ae/training.py
+src/camus_autoencoder.egg-info/PKG-INFO
+src/camus_autoencoder.egg-info/SOURCES.txt
+src/camus_autoencoder.egg-info/dependency_links.txt
+src/camus_autoencoder.egg-info/entry_points.txt
+src/camus_autoencoder.egg-info/requires.txt
+src/camus_autoencoder.egg-info/top_level.txt
